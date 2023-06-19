@@ -1,9 +1,13 @@
-import './App.css';
+import React from 'react';
+import TopBar from './Components/TopBar';
+import HomeImage from './Components/HomeImage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <HomeImage />
+      {/* Add other components here */}
     </div>
   );
 }
