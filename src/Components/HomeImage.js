@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 function HomeImage() {
   return (
-    <Container>
+    <Container className='home-image' style={{ backgroundColor: '#dfeed4' }}>
       <Row>
         <Col xs={{ span: 6, offset: 6 }} md={{ span: 4, offset: 8 }}>
           <Image src="./insta-background.png" thumbnail />
